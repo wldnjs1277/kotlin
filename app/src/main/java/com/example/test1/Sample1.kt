@@ -56,6 +56,7 @@ fun checknumber(score : Int) {
     }
 }
 
+
 // Array & List
 fun array(){
     val array : Array<Int> = arrayOf(1,2,3)
