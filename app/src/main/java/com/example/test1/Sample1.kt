@@ -55,3 +55,19 @@ fun checknumber(score : Int) {
         else -> println("okay")
     }
 }
+
+// Array & List
+fun array(){
+    val array : Array<Int> = arrayOf(1,2,3)
+    val list : List<Int> = listOf(1,2,3)
+
+    val array2 : Array<Any> = arrayOf(1,"a",3,4f)
+    val list2 : List<Any> = listOf(1,"d",11L)
+
+    array[0] = 1
+    var result = list.get(0)
+
+    val arraylist : ArrayList<Int> = arrayListOf<Int>()
+    arraylist.add(10)
+    arraylist.add(20)
+}
